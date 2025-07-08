@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is passed]]>
+    </line>
+    <line>
+      <![CDATA[Testcase is passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-07-08T20:53:33 IST" name="Suite" finished-at="2025-07-08T20:54:49 IST" duration-ms="75421">
+    <groups>
+    </groups>
+    <test started-at="2025-07-08T20:53:33 IST" name="Test" finished-at="2025-07-08T20:54:49 IST" duration-ms="75421">
+      <class name="DetailsOfAmazon.Website.Testcase2_ValidCredentials">
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-08T20:54:17 IST" name="starting" finished-at="2025-07-08T20:54:33 IST" duration-ms="15930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method signature="ValidCredentials()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-08T20:54:33 IST" name="ValidCredentials" finished-at="2025-07-08T20:54:48 IST" duration-ms="15978" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidCredentials -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-08T20:54:49 IST" name="closing" finished-at="2025-07-08T20:54:49 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- DetailsOfAmazon.Website.Testcase2_ValidCredentials -->
+      <class name="DetailsOfAmazon.Website.Testcase1_Registration">
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-08T20:53:49 IST" name="starting" finished-at="2025-07-08T20:53:59 IST" duration-ms="9999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method signature="RegistrationPageDetails()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-08T20:53:59 IST" name="RegistrationPageDetails" finished-at="2025-07-08T20:54:16 IST" duration-ms="16526" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- RegistrationPageDetails -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-08T20:54:17 IST" name="closing" finished-at="2025-07-08T20:54:17 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- DetailsOfAmazon.Website.Testcase1_Registration -->
+      <class name="DetailsOfAmazon.Website.TestCase5_SearchForProduct">
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-08T20:53:34 IST" name="starting" finished-at="2025-07-08T20:53:42 IST" duration-ms="8213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method signature="SearchDetails()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-08T20:53:42 IST" name="SearchDetails" finished-at="2025-07-08T20:53:49 IST" duration-ms="6956" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Testcase is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchDetails -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-08T20:53:49 IST" name="closing" finished-at="2025-07-08T20:53:49 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- DetailsOfAmazon.Website.TestCase5_SearchForProduct -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
