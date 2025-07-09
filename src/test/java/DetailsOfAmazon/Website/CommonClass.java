@@ -15,14 +15,14 @@ public class CommonClass extends ListenerLogic {
 	@BeforeMethod
 	public void starting(String browsername) 
 	{
-		if(browsername.equalsIgnoreCase("chrome"))
+		/*if(browsername.equalsIgnoreCase("edge"))
 		{
 			driver=new EdgeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.get("https://www.amazon.in");
-		}
-		if(browsername.equalsIgnoreCase("edge"))
+		}*/
+		if(browsername.equalsIgnoreCase("chrome"))
 		{
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
