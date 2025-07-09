@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results retried="1" ignored="1" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Testcase is passed]]>
@@ -11,57 +11,143 @@
       <![CDATA[Testcase is passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-08T20:53:33 IST" name="Suite" finished-at="2025-07-08T20:54:49 IST" duration-ms="75421">
+  <suite started-at="2025-07-09T20:29:52 IST" name="Suite" finished-at="2025-07-09T20:31:19 IST" duration-ms="86808">
     <groups>
     </groups>
-    <test started-at="2025-07-08T20:53:33 IST" name="Test" finished-at="2025-07-08T20:54:49 IST" duration-ms="75421">
+    <test started-at="2025-07-09T20:29:52 IST" name="Test" finished-at="2025-07-09T20:31:19 IST" duration-ms="86808">
       <class name="DetailsOfAmazon.Website.Testcase2_ValidCredentials">
-        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-08T20:54:17 IST" name="starting" finished-at="2025-07-08T20:54:33 IST" duration-ms="15930" status="PASS">
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-09T20:30:54 IST" name="starting" finished-at="2025-07-09T20:31:04 IST" duration-ms="9891" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- starting -->
-        <test-method signature="ValidCredentials()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-08T20:54:33 IST" name="ValidCredentials" finished-at="2025-07-08T20:54:48 IST" duration-ms="15978" status="PASS">
+        <test-method signature="ValidCredentials()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-09T20:31:04 IST" name="ValidCredentials" finished-at="2025-07-09T20:31:19 IST" duration-ms="15057" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- ValidCredentials -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-08T20:54:49 IST" name="closing" finished-at="2025-07-08T20:54:49 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase2_ValidCredentials@2a798d51]" started-at="2025-07-09T20:31:19 IST" name="closing" finished-at="2025-07-09T20:31:19 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closing -->
       </class> <!-- DetailsOfAmazon.Website.Testcase2_ValidCredentials -->
       <class name="DetailsOfAmazon.Website.Testcase1_Registration">
-        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-08T20:53:49 IST" name="starting" finished-at="2025-07-08T20:53:59 IST" duration-ms="9999" status="PASS">
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-09T20:30:09 IST" name="starting" finished-at="2025-07-09T20:30:19 IST" duration-ms="10002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- starting -->
-        <test-method signature="RegistrationPageDetails()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-08T20:53:59 IST" name="RegistrationPageDetails" finished-at="2025-07-08T20:54:16 IST" duration-ms="16526" status="PASS">
+        <test-method retried="true" signature="RegistrationPageDetails()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-09T20:30:19 IST" name="RegistrationPageDetails" finished-at="2025-07-09T20:30:38 IST" duration-ms="18887" status="SKIP">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class="nav-line-2 "]"}
+  (Session info: MicrosoftEdge=138.0.3351.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [953ed82156bf284a860c275933441868, findElement {value=//span[@class="nav-line-2 "], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60951}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\quali\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60951/devtoo..., se:cdpVersion: 138.0.3351.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 953ed82156bf284a860c275933441868]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class="nav-line-2 "]"}
+  (Session info: MicrosoftEdge=138.0.3351.77)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.32.0', revision: 'd17c8aa950'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [953ed82156bf284a860c275933441868, findElement {value=//span[@class="nav-line-2 "], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 138.0.3351.77, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60951}, msedge: {msedgedriverVersion: 138.0.3351.77 (efaf6935b436..., userDataDir: C:\Users\quali\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60951/devtoo..., se:cdpVersion: 138.0.3351.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 953ed82156bf284a860c275933441868
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy11.getText(Unknown Source)
+at DetailsOfAmazon.Website.RegistrationPage.VerifyingUsingText(RegistrationPage.java:51)
+at DetailsOfAmazon.Website.Testcase1_Registration.RegistrationPageDetails(Testcase1_Registration.java:22)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegistrationPageDetails -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-09T20:30:38 IST" name="closing" finished-at="2025-07-09T20:30:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-09T20:30:38 IST" name="starting" finished-at="2025-07-09T20:30:44 IST" duration-ms="5778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method signature="RegistrationPageDetails()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-09T20:30:44 IST" name="RegistrationPageDetails" finished-at="2025-07-09T20:30:53 IST" duration-ms="9205" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- RegistrationPageDetails -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-08T20:54:17 IST" name="closing" finished-at="2025-07-08T20:54:17 IST" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase1_Registration@6b81ce95]" started-at="2025-07-09T20:30:54 IST" name="closing" finished-at="2025-07-09T20:30:54 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closing -->
       </class> <!-- DetailsOfAmazon.Website.Testcase1_Registration -->
       <class name="DetailsOfAmazon.Website.TestCase5_SearchForProduct">
-        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-08T20:53:34 IST" name="starting" finished-at="2025-07-08T20:53:42 IST" duration-ms="8213" status="PASS">
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-09T20:29:52 IST" name="starting" finished-at="2025-07-09T20:30:01 IST" duration-ms="9006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- starting -->
-        <test-method signature="SearchDetails()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-08T20:53:42 IST" name="SearchDetails" finished-at="2025-07-08T20:53:49 IST" duration-ms="6956" status="PASS">
+        <test-method signature="SearchDetails()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-09T20:30:01 IST" name="SearchDetails" finished-at="2025-07-09T20:30:09 IST" duration-ms="7590" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase is passed]]>
             </line>
           </reporter-output>
         </test-method> <!-- SearchDetails -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-08T20:53:49 IST" name="closing" finished-at="2025-07-08T20:53:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.TestCase5_SearchForProduct@1ab3a8c8]" started-at="2025-07-09T20:30:09 IST" name="closing" finished-at="2025-07-09T20:30:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closing -->

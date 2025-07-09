@@ -16,7 +16,7 @@ WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 SoftAssert assertdetails=new SoftAssert();
 @FindBy(xpath="(//img[@class='sw-product-image'])[1]")
 WebElement mobile2;
-@FindBy(xpath="//input[@id='add-to-cart-button']")
+@FindBy(xpath="(//button[.='Add to cart'])[1]")
 WebElement addtocart1;
 @FindBy(xpath="(//a[@data-csa-c-content-id='sw-gtc_CONTENT'])[1]")
 WebElement gotocart;

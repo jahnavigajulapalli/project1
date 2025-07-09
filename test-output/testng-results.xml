@@ -5,27 +5,27 @@
       <![CDATA[Testcase is passed]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-07-08T19:55:59 IST" name="Default suite" finished-at="2025-07-08T19:56:43 IST" duration-ms="44027">
+  <suite started-at="2025-07-09T14:15:10 IST" name="Default suite" finished-at="2025-07-09T14:15:31 IST" duration-ms="21372">
     <groups>
     </groups>
-    <test started-at="2025-07-08T19:55:59 IST" name="Default test" finished-at="2025-07-08T19:56:43 IST" duration-ms="44027">
-      <class name="DetailsOfAmazon.Website.TestCase13_ApplyCouponCode">
-        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.TestCase13_ApplyCouponCode@c730b35]" started-at="2025-07-08T19:55:59 IST" name="starting" finished-at="2025-07-08T19:56:06 IST" duration-ms="7098" status="PASS">
+    <test started-at="2025-07-09T14:15:10 IST" name="Default test" finished-at="2025-07-09T14:15:31 IST" duration-ms="21372">
+      <class name="DetailsOfAmazon.Website.Testcase15_ReachTillCartPage">
+        <test-method is-config="true" signature="starting()[pri:0, instance:DetailsOfAmazon.Website.Testcase15_ReachTillCartPage@c730b35]" started-at="2025-07-09T14:15:10 IST" name="starting" finished-at="2025-07-09T14:15:14 IST" duration-ms="4428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- starting -->
-        <test-method signature="CouponCode()[pri:0, instance:DetailsOfAmazon.Website.TestCase13_ApplyCouponCode@c730b35]" started-at="2025-07-08T19:56:06 IST" name="CouponCode" finished-at="2025-07-08T19:56:42 IST" duration-ms="36637" status="PASS">
+        <test-method signature="CartPage()[pri:0, instance:DetailsOfAmazon.Website.Testcase15_ReachTillCartPage@c730b35]" started-at="2025-07-09T14:15:14 IST" name="CartPage" finished-at="2025-07-09T14:15:31 IST" duration-ms="16682" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Testcase is passed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- CouponCode -->
-        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.TestCase13_ApplyCouponCode@c730b35]" started-at="2025-07-08T19:56:43 IST" name="closing" finished-at="2025-07-08T19:56:43 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- CartPage -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:DetailsOfAmazon.Website.Testcase15_ReachTillCartPage@c730b35]" started-at="2025-07-09T14:15:31 IST" name="closing" finished-at="2025-07-09T14:15:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closing -->
-      </class> <!-- DetailsOfAmazon.Website.TestCase13_ApplyCouponCode -->
+      </class> <!-- DetailsOfAmazon.Website.Testcase15_ReachTillCartPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
